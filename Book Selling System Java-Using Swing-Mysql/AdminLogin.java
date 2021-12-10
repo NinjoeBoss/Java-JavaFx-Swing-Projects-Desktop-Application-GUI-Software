@@ -34,6 +34,8 @@ public class AdminLogin extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+
+	// Run Main Code
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -64,20 +66,20 @@ public class AdminLogin extends JFrame {
 		contentPane.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Admin Login");
-		lblNewLabel.setForeground(new Color(255, 255, 102));
-		lblNewLabel.setFont(new Font("Times New Roman", Font.PLAIN, 46));
+			lblNewLabel.setForeground(new Color(255, 255, 105));
+		lblNewLabel.setFont(new Font("Arial", Font.PLAIN, 46));
 		lblNewLabel.setBounds(364, 60, 273, 93);
 		contentPane.add(lblNewLabel);
 		
 		textField = new JTextField();
 		textField.setFont(new Font("Tahoma", Font.PLAIN, 32));
-		textField.setBounds(481, 170, 281, 68);
+		textField.setBounds(500, 170, 281, 68);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		passwordField = new JPasswordField();
 		passwordField.setFont(new Font("Tahoma", Font.PLAIN, 32));
-		passwordField.setBounds(481, 286, 281, 68);
+		passwordField.setBounds(500, 286, 281, 68);
 		contentPane.add(passwordField);
 		
 		JLabel lblUsername = new JLabel("Username");

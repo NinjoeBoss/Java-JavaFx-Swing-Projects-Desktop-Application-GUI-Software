@@ -30,6 +30,8 @@ public class Add_new_books extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+
+	//Runs the main code
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {

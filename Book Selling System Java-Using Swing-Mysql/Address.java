@@ -31,6 +31,8 @@ public class Address extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+
+	//Runs Main Code
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {

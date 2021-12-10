@@ -30,6 +30,7 @@ public class Add_old_books extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	//Runs the Main Code
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -57,12 +58,12 @@ public class Add_old_books extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("Book's name :- ");
+		JLabel lblNewLabel = new JLabel("Book name :- ");
 		lblNewLabel.setFont(new Font("Segoe UI", Font.PLAIN, 20));
 		lblNewLabel.setBounds(59, 25, 145, 32);
 		contentPane.add(lblNewLabel);
 		
-		JLabel label = new JLabel("Writer's name :- ");
+		JLabel label = new JLabel("Writer name :- ");
 		label.setFont(new Font("Segoe UI", Font.PLAIN, 20));
 		label.setBounds(59, 101, 145, 32);
 		contentPane.add(label);
